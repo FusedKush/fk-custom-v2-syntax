@@ -1,7 +1,7 @@
 {
   "name": "fk-custom-v2-syntax",
   "theme": "syntax",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "My custom Syntax theme for Atom",
   "keywords": [
     "syntax",

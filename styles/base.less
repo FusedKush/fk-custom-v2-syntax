@@ -57,6 +57,7 @@ atom-text-editor {
 
 .syntax--comment {
   color: @very-dark-gray;
+  font-style: italic;
 }
 
 .syntax--keyword {
@@ -139,9 +140,11 @@ atom-text-editor {
 
 .syntax--punctuation {
   &.syntax--definition {
+    /* Duplicate
     &.syntax--comment {
       color: @very-dark-gray;
     }
+    */
 
     &.syntax--string,
     &.syntax--variable,
@@ -208,7 +211,7 @@ atom-text-editor {
 
   &.syntax--name.syntax--tag {
     color: @red;
-    text-decoration: underline;
+    // text-decoration: underline;
   }
 
   &.syntax--other.syntax--attribute-name {
